@@ -11,8 +11,8 @@ L = 0
 N = int(problem[0])
 d = int(problem[1])
 R = int(problem[2])
-for i in range(1, N+1):
+for i in range(1, N + 1):
     if i == 1 or i == N:
         L += d
-    L += 2*R
+    L += 2 * R
 print(L)

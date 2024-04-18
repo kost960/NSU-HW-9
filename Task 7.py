@@ -17,4 +17,5 @@ def solutions():
                                             all_solutions.append((send, more, money))
     return all_solutions
 
+
 print(solutions())
